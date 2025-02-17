@@ -1,0 +1,92 @@
+body {
+    background-color: #FEC7B4;
+}
+
+header {
+    width: 90%;
+    border: 1px solid#FC819E;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 40px 0 40px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #FC819E;
+}
+p{
+    font-style: bold;
+}
+
+ img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #FEC7B4 ;
+    border-radius: 30px 0 30px;
+}
+button{
+    width: 40%;
+    margin: 0 auto;
+    padding: 8px 25px;
+    color:#FF9C73;
+    background-color: #FC819E;
+    border-radius: 20px 0 20px 0;
+    border:1px solid #FC819E
+
+}
+
+
+header button{
+    padding: 8px 25px;
+    width: 40%;
+    margin: 0 auto;
+    color:#F7418F;
+    background-color: #FC819E;
+    border-radius: 20px 0 20px 0;
+    border:1px solid #FF9C73 ;
+}
+
+header button:hover {
+background-color: #FF9C73;
+transform: scale(.9);
+transition: all .is ease-out;
+}
+
+.about{
+    width:90% ;
+    border: ipx solid #FF9C73
+    margin: 30px auto; 
+    padding: 40px 30px;
+    display:flex;
+}
+
+.about p{
+   padding-left: 40%; 
+   margin: auto;
+}
+.about img{
+width: 40%;
+}
+.about{
+    width: 90%;
+    border: 1px solid #ffffff;
+    margin: 30px auto;
+    padding: 40px 30px;
+    display: flex;
+}
+.title{
+    color: #FC819E;
+}
+
+.image-project{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.image-project img{
+    width: 30px;
+    border-radius: 50%;
+}
